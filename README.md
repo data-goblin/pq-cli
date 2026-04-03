@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-0.1.1-blue" alt="Version">
+  <img src="https://img.shields.io/badge/version-0.1.2-blue" alt="Version">
   <img src="https://img.shields.io/badge/Power_BI-F2C811?logo=powerbi&logoColor=000" alt="Power BI">
   <img src="https://img.shields.io/badge/Microsoft_Fabric-008272" alt="Microsoft Fabric">
   <img src="https://img.shields.io/badge/license-GPL--3.0-green" alt="License">
