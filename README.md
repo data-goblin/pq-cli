@@ -11,10 +11,7 @@
   <img src="https://img.shields.io/badge/license-GPL--3.0-green" alt="License">
 </p>
 
-> **Early preview.** Commands and flags may change between versions.
-
-> [!IMPORTANT]
-> This CLI requires Microsoft Fabric, because the dependent APIs use a Dataflow Gen2 runner to execute Power Query. You can't (yet?) create a Gen2 dataflow in Power BI Pro, PPU, or Premium capacities.
+> **Experimental.** Commands and flags may change between versions.
 
 ## Install
 
