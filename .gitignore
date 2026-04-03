@@ -1,0 +1,5 @@
+/target/
+src/
+Cargo.lock
+*.rs
+.claude/
