@@ -13,6 +13,9 @@
 
 > **Early preview.** Commands and flags may change between versions.
 
+> [!IMPORTANT]
+> This CLI requires Microsoft Fabric, because the dependent APIs use a Dataflow Gen2 runner to execute Power Query. You can't (yet?) create a Gen2 dataflow in Power BI Pro, PPU, or Premium capacities.
+
 ## Install
 
 ```bash
@@ -24,7 +27,7 @@ Or download a prebuilt binary from [Releases](https://github.com/data-goblin/pq-
 ## Prerequisites
 
 - Azure CLI (`az`) installed and authenticated (`az login`)
-- Access to a Microsoft Fabric workspace (Pro, PPU, or Fabric capacity)
+- Access to a Microsoft Fabric workspace (Fabric capacity required)
 - `fab` CLI installed (for partition preview; `cargo install fab-fabric`)
 
 ## Quick Start
@@ -120,7 +123,8 @@ Data source access (e.g. `Sql.Database`) requires a connection bound to the runn
 2. Discovering the ClusterId from an existing dataflow in the workspace
 3. Pushing a definition with the connection binding via `updateDefinition`
 
-No portal interaction needed.
+> [!NOTE]
+> If you don't have a connection yet you might need to create it with the APIs or if you prefer manually in the Fabric user interface.
 
 ## Environment Variables
 
@@ -133,7 +137,7 @@ No portal interaction needed.
 ## Limitations
 
 - 90-second execution timeout (Fabric API limit)
-- Requires a Fabric capacity (Pro, PPU, or Fabric capacity)
+- Requires a Fabric capacity (Dataflow Gen2 is not available on Pro/PPU/Premium)
 - Data source access requires connections bound to the runner
 - Partition preview requires `fab` CLI for TMDL extraction
 - Preview API; may change
