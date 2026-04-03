@@ -138,6 +138,20 @@ No portal interaction needed.
 - Partition preview requires `fab` CLI for TMDL extraction
 - Preview API; may change
 
-## License
+## Use or Re-use
 
-GPL-3.0
+You do not have the license to copy and incorporate this into your own products, trainings, courses, or tools. If you copy this project or use an agent to rewrite it, you must include attribution and a link to the original project.
+
+<br>
+
+---
+
+<p align="center">
+  <em>Built with assistance from <a href="https://claude.ai/claude-code">Claude Code</a>. AI-generated code has been reviewed but may contain errors. Use at your own risk.</em>
+</p>
+
+---
+
+<p align="center">
+  <a href="https://github.com/data-goblin">Kurt Buhler</a> · <a href="https://data-goblins.com">Data Goblins</a> · part of <a href="https://tabulareditor.com">Tabular Editor</a>
+</p>
