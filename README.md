@@ -141,6 +141,8 @@ Data source access (e.g. `Sql.Database`) requires a connection bound to the runn
 
 ## Use or Re-use
 
+This tool is for free community use.
+
 You do not have the license to copy and incorporate this into your own products, trainings, courses, or tools. If you copy this project or use an agent to rewrite it, you must include attribution and a link to the original project.
 
 <br>
