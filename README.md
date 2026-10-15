@@ -1,3 +1,10 @@
+---
+
+> [!NOTE]
+> This repo has been archived by the author. It's no longer receiving updates and remains public just for reference.
+
+---
+
 <h1 align="center">Power Query CLI</h1>
 
 <p align="center">
